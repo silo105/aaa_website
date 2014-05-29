@@ -4,7 +4,25 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
+group :development do
 gem 'sqlite3'
+gem 'rspec-rails', '2.13.1', :require => 'rspec-rails'
+gem 'faker', '0.3.1'
+end
+
+group :development do
+gem 'sqlite3'
+gem 'rspec-rails', '2.13.1', :require => 'rspec-rails'
+# gem 'test-unit'
+gem 'webrat', '0.7.1'
+gem 'factory_girl_rails', '4.2.1'
+# Pretty printed test output
+gem 'turn', :require => false
+end
+
+group :production do
+gem 'pg'
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
