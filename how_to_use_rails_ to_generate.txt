@@ -1,0 +1,1 @@
+C:\Rails-Websites\AAA_Website>rails generate controller AaaCore index events shop discussion
