@@ -1,4 +1,3 @@
-#
 #c:\Rails-Websites\AAA_Website\app\helpers\application_helper.rb
 #
 module ApplicationHelper

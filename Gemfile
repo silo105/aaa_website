@@ -10,12 +10,12 @@ gem 'rspec-rails', '2.13.1', :require => 'rspec-rails'
 gem 'faker', '0.3.1'
 end
 
-group :development do
+group :test do
 gem 'sqlite3'
 gem 'rspec-rails', '2.13.1', :require => 'rspec-rails'
 # gem 'test-unit'
 gem 'webrat', '0.7.1'
-gem 'factory_girl_rails', '4.2.1'
+gem 'factory_girl_rails', '4.4.1'
 # Pretty printed test output
 gem 'turn', :require => false
 end
@@ -58,6 +58,6 @@ end
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
-
+gem 'utf8', '~> 0.1.8'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
